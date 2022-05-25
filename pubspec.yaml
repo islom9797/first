@@ -14,10 +14,27 @@ dependencies:
 
   cupertino_icons: ^1.0.2
   get: ^4.6.3
+  flutter_svg: ^0.22.0
+  flutter_svg_provider: ^0.1.10
+  shared_preferences: ^2.0.15
+  webview_flutter: ^3.0.4
+  flutter_blue: ^0.8.0
+  permission_handler: ^9.2.0
+  udp: ^5.0.3
+
+
+
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+  flutter_launcher_icons: "^0.9.2"
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/iconApp.png"
 
   flutter_lints: ^2.0.0
 
@@ -27,9 +44,12 @@ flutter:
 
   uses-material-design: true
 
-  # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+
+  assets:
+    -  assets/images/
+    -  assets/images/splash_page/
+    -  assets/images/home_page/
+    -  assets/images/weigh_page/
   #   - images/a_dot_ham.jpeg
 
 
